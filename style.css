@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 0.932);
+}
+
+header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: left;
+
+
+}
+
+.header-links {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 35px;
+    text-decoration: none;
+
+}
+
+   
+
+.header-links a {
+    color: white;
+    padding-inline: 15px;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+
+}
+
+.banner img {
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 120vh;
+    padding: 80px 20px;
+}
+
+.box {
+   width: 350px;
+   height: 250px;
+   border: 3px solid white;
+   color: white;
+   padding: 25px;
+ 
+ 
+}
+.box:hover{
+    background-color: rgba(173, 216, 230, 0.589);
+}
+.box button:hover{
+  background-color: rgba(255, 173, 96, 0.795);
+  color:red;
+}
+figcaption img{
+    width: 150px;
+    height: 150px;
+    border-radius:0px 20px 20px;
+}
+figure{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 10px;
+    height: 100vh;
+    
+   
+}
+figcaption {
+   width: 50%;
+   height: 270px;
+   color: white;
+   
+   border: 3px solid white;
+ 
+}
+figcaption p{
+    font-size: 20px;
+    padding: 0px 20px;
+}
+figcaption:hover{
+    background-color: rgb(255, 115, 0);
+}

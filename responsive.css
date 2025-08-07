@@ -1,0 +1,38 @@
+@media(max-width:600px) {
+  .logo {
+    display: none;
+  }
+
+  .box {
+    font-size: 100%;
+    padding: 50px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px 20px;
+  }
+
+  figure {
+    
+position: relative;
+
+  }
+
+  figcaption {
+    width: 50%;
+    font-size: 100%;
+    overflow: auto;
+    height: 250px;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.box button:hover {
+  background-color: aqua;
+}
